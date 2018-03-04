@@ -1,10 +1,25 @@
 body {
-    background: #f0f5f1;
+    background-image: url(../img/garden_background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    background-color: #f0f5f1;
+    width: 100%;
+    display: block;
+    margin: 0 auto;    
 }
 
 main {
     width: 95%;
     margin: 0 auto;
+}
+
+header {
+    background: #679572;
+    padding: 10px;
 }
 
 header img {
@@ -17,7 +32,7 @@ header img {
     background: #ffffff;
     border-style: solid;
     border-width: .5px;
-    box-shadow: 2px 2px 2px #888888;
+    box-shadow: 3px 3px 3px #8c8c8c;
 
 }
 
@@ -27,4 +42,18 @@ h1 h2 {
 
 p {
     font-family: 'Roboto', sans-serif;
+}
+
+footer img {
+    width: 100%;
+    margin-top: 25px;
+    opacity: 0.4;
+}
+
+
+@media (min-width:500px) {
+    #container {
+        width: 90%;
+        margin: auto;
+
 }
