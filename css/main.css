@@ -1,0 +1,30 @@
+body {
+    background: #f0f5f1;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header img {
+    width: 80%;
+    height: auto;
+    max-width: 400px;
+    padding: 10px;
+    display: block;
+    margin: 20px auto 20px auto;
+    background: #ffffff;
+    border-style: solid;
+    border-width: .5px;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+h1 h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
