@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 #container {
@@ -40,8 +41,19 @@ h1 h2 {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
 p {
     font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #679572;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+
+button:hover {
+    background-color: #5AB014;
 }
 
 footer img {
