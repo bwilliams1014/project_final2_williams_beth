@@ -46,6 +46,8 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+/* text links */
+
 a {
     color: #4d4dff;
     text-decoration: none;
@@ -64,6 +66,8 @@ a:visited {
     color: #8533ff;
 }
 
+/* button */
+
 button {
     background-color: #679572;
     border-radius: 5px;
@@ -74,12 +78,30 @@ button:hover {
     background-color: #5AB014;
 }
 
+
+#flexContainer img {
+    width: 80px;
+    height: auto;
+    display: inline;
+    padding: 10px;
+}
+
+#flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* footer */
+
 footer img {
     width: 100%;
     margin-top: 25px;
     opacity: 0.4;
 }
 
+/* media query min width 500px */
 
 @media (min-width:500px) {
     #container {
