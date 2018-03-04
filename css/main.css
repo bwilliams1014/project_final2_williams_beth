@@ -46,6 +46,24 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: #4d4dff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0099ff;
+    font-weight: bold;
+}
+
+a:active {
+    color: #33cccc;
+}
+
+a:visited {
+    color: #8533ff;
+}
+
 button {
     background-color: #679572;
     border-radius: 5px;
