@@ -70,9 +70,11 @@ a:visited {
     text-align: center;
 }
 
-
-
 /* button */
+
+#buttons {
+    margin-bottom: 20px;
+}
 
 button {
     background-color: #679572;
@@ -84,6 +86,7 @@ button:hover {
     background-color: #5AB014;
 }
 
+/* flowers in flex container */
 
 #flexContainer img {
     width: 80px;
@@ -99,17 +102,18 @@ button:hover {
 
 #adjectives {
     text-align: center;
-    padding-top: 30px;
+    border-top: solid;
+    border-bottom: solid;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #cccccc;
 }
 
 #imagery img {
-    width: 290px;
+    width: 90%;
+    max-width: 400px;
     height: auto;
-    margin-top: 10px;
-    border-style: solid;
-    border-width: .5px;
+    margin-top: 15px;
     box-shadow: 3px 3px 3px #8c8c8c;
-
 }
 
 /* footer */
