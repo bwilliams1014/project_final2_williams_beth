@@ -107,13 +107,13 @@ button:hover {
     margin-bottom: 20px;
     text-shadow: 2px 2px 2px #cccccc;
 }
-
-#colors p {
-    text-align: center;
-    font-size: 0.6em;
+ /* colors */
+#colors {
+    display: flex;
+    justify-content: center;
 }
 
-#green1 {
+#green1, #green2, #green3 {
     display: inline-block;
     box-sizing: border-box;
     width: 50px;
@@ -123,33 +123,55 @@ button:hover {
     border: solid;
     border-color: white;
     box-shadow: 2px 2px 2px #cccccc;
+    text-align: center;
+    font-size: 0.6em;
+    margin: 10px;
  }
 
  #green2 {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 50px;
-    height: 50px;
     background-color: #437214;
-    padding-top: 20px;
-    border: solid;
-    border-color: white;
-    box-shadow: 2px 2px 2px #cccccc;
     color: white;
  }
 
  #green3 {
+    background-color: #1e4f00;
+    color: white;
+ }
+
+ /* accent colors */
+
+ #accentColors {
+    display: flex;
+    justify-content: center;
+ }
+
+ #pink, #yellow, #purple {
     display: inline-block;
     box-sizing: border-box;
     width: 50px;
     height: 50px;
-    background-color: #1e4f00;
-    padding-top: 20px;
+    border-radius: 25px;
+    background-color: #ffa8bc;
+    padding-top: 40px;
     border: solid;
     border-color: white;
     box-shadow: 2px 2px 2px #cccccc;
-    color: white;
+    text-align: center;
+    font-size: 0.6em;
+    margin: 10px;
  }
+
+#yellow {
+    background-color: #ffe241;
+}
+
+#purple {
+    background-color: #9e78cb;
+}
+
+
+
+
 
 #imagery img {
     width: 90%;
