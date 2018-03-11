@@ -32,11 +32,11 @@ header img {
 
 }
 
-h1 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+h1, h2 {
+    font-family: 'Acme', sans-serif;
 }
 
-h3 p {
+p {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -98,9 +98,6 @@ button:hover {
 /* adjectives */
 
 #adjectives {
-    font-family: 'Bilbo Swash Caps', cursive;
-    font-size: 2.2em;
-    line-height: 1em;
     text-align: center;
     border-top: solid;
     border-bottom: solid;
@@ -108,9 +105,12 @@ button:hover {
     text-shadow: 2px 2px 2px #cccccc;
 }
 
-#adjectives p {
-    font-size: 0.5em;
+#adjectives h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
 }
+
 
  /* colors */
 
