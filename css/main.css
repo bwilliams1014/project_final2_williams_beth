@@ -237,21 +237,38 @@ footer img {
         margin-top: 40px;
         margin-right: 40px;
     }
-    main {
-        display: flex;
-        justify-content: center;
-    }
-    #typography, #imagery {
-        width: 40%;
+    #adjectives {
+        float: none;
+        margin-left: 0;
     }
     #typography {
-        margin-right: 10px;
+        width: 50%;
+        position: relative;
+        margin-top: -120px;
         background-color: #ffffff;
-        padding: 10px;
+        padding: 15px;
         border-style: solid;
         border-collapse: black;
-        position: relative;
-        margin-top: 20px;
-        z-index: 1;
+        float: left;
     }
+    #imagery {
+        width: 40%;
+        float: right;
+    }
+    #colors, #accentColors {
+        margin-top: 5px;
+    }
+    #images {
+        margin-top: 10px;
+    }
+    #flowers {
+        width: 50%;
+        float:left;
+        margin-top: 40px;
+      }
+      #flowers img {
+        width: 100px;
+        height: auto;
+        display: inline-block;
+      }
 }
