@@ -21,6 +21,7 @@ main {
 header {
     background-image: url(../img/green_banner.png);
     padding: 10px;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -196,9 +197,10 @@ button:hover {
 
 /* footer */
 
-footer img {
+#footer img {
     width: 100%;
-    opacity: 0.4;
+    height: 50px;
+    z-index: 1;
 }
 
 /* media query min width 500px */
@@ -265,10 +267,17 @@ footer img {
         width: 50%;
         float:left;
         margin-top: 40px;
-      }
+    }
       #flowers img {
         width: 100px;
         height: auto;
         display: inline-block;
-      }
+    }
+}
+
+@media (min-width: 1000px) {
+    #imagery img {
+        width: 70%;
+    }
+
 }
