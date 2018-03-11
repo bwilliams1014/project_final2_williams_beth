@@ -23,6 +23,6 @@
 
 ## Comments
 
-None really. Though I think it would have been easier to design the style tile in a vertical call-phone layout first rather than a full-screen image. Next time ....
+None really. Though I think it would have been easier to design the style tile in a vertical cell-phone layout first rather than a full-screen image. Next time ....
 
 
