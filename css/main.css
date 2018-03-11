@@ -86,19 +86,22 @@ button:hover {
     background-color: #5AB014;
 }
 
-/* flowers in flex container */
+/* flowers */
 
-#flexContainer img {
-    width: 80px;
-    height: auto;
-    display: inline;
-    padding: 10px;
-}
-
-#flexContainer {
+#flowers {
     display: flex;
     justify-content: center;
 }
+
+#flowers img {
+    width: 60px;
+    height: auto;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+/* adjectives */
 
 #adjectives {
     text-align: center;
@@ -189,7 +192,6 @@ button:hover {
 
 footer img {
     width: 100%;
-    margin-top: 25px;
     opacity: 0.4;
 }
 
@@ -199,5 +201,4 @@ footer img {
     #container {
         width: 90%;
         margin: auto;
-
 }
