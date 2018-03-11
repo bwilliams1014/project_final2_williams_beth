@@ -108,7 +108,9 @@ button:hover {
     margin-bottom: 20px;
     text-shadow: 2px 2px 2px #cccccc;
 }
+
  /* colors */
+
 #colors {
     display: flex;
     justify-content: center;
@@ -170,17 +172,17 @@ button:hover {
     background-color: #9e78cb;
 }
 
+/* images */
 
 
 
-
-#imagery img {
+#images img {
+    display: block;
     width: 90%;
     max-width: 400px;
     height: auto;
-    margin-top: 15px;
+    margin: 20px auto;
     box-shadow: 3px 3px 3px #8c8c8c;
-
 }
 
 /* footer */
