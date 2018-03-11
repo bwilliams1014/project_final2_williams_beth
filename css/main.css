@@ -1,9 +1,5 @@
 body {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 #container {
@@ -205,14 +201,7 @@ button:hover {
     z-index: 1;
 }
 
-/* media query min width 500px */
 
-@media (min-width:500px) {
-    #container {
-        width: 90%;
-        margin: auto;
-    }
-}
 
 /* media query min width 700px */
 
@@ -279,8 +268,11 @@ button:hover {
 }
 
 @media (min-width: 1000px) {
-    #imagery img {
-        width: 70%;
+    #imagery {
+        margin-top: 30px;
+    }   
+    #images img {
+        width: 30%;
     }
 
 }
