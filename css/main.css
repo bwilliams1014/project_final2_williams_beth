@@ -192,7 +192,9 @@ button:hover {
     max-width: 400px;
     height: auto;
     margin: 20px auto;
-    box-shadow: 3px 3px 3px #8c8c8c;
+    border-style: solid;
+    border-color: #ffffff;
+    box-shadow: 2px 2px 2px #8c8c8c;
 }
 
 /* footer */
@@ -250,7 +252,8 @@ button:hover {
         background-color: #ffffff;
         padding: 15px;
         border-style: solid;
-        border-collapse: black;
+        border-width: .5px;
+        box-shadow: 3px 3px 3px #8c8c8c;
         float: left;
     }
     #imagery {
